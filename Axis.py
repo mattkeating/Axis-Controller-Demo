@@ -14,8 +14,8 @@ label(pos=(25,80,0), text='Y-Axis')
 
 while True:
     rate(100)
-    if scene.kb.keys: # is there an event waiting to be processed?
-        s = scene.kb.getkey() # obtain keyboard information
+    if scene.kb.keys:
+        s = scene.kb.getkey() 
     
         if s == 'up':
             y = y + 3
